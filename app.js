@@ -8,6 +8,7 @@ const changeButton = document.getElementById('change-name');
 console.log(changeButton);
 
 changeButton.addEventListener('click', () => {
+    console.log('click');
     nameDisplay.textContent = nameInput.value;
     nameInput.value = '';
 });
